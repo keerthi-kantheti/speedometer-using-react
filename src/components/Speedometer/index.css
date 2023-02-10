@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.image {
+  height: 300px;
+  width: 600px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 5px;
+}
+.apply-brake-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 5px;
+}
+.para-1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.para-2 {
+  color: #cbd5e1;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
